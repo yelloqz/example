@@ -1,0 +1,88 @@
+header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.ed-menu a:hover{
+    background: #0e0e0e;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.contacto{
+    width: 80%;
+    margin: 2em auto;
+}
+
+.contacto .ed-item{
+    margin-bottom: 1em;
+}
+
+.contacto input,
+.contacto textarea{
+    width: 100%;
+}
+
+.contacto-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid #161616;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.enviar{
+    background: rgb(22, 22, 22);
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 2.5;
+    padding: 0 1em;
+    border: none;
+    border-radius: 20px;
+}
+
+footer{
+    background: #111111;
+    text-align: center;
+    font-size: .9em;
+    color: #eee;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-top: 4em;
+}
+
+nav ul.ed-menu li a {
+    font-family: 'Copperplate Gothic Bold', Copperplate, fantasy;
+}
+
+/* Añadir bordes redondeados al carrusel */
+.carousel-inner img {
+    border-radius: 15px; /* Ajusta el valor según tu preferencia */
+}
+
+/* Fondo específico para la sección de redes sociales */
+.social-media {
+    background-color: #0c0d5fbb; /* Cambia el color según tu preferencia */
+    padding: 20px; /* Ajusta el padding según tu preferencia */
+    border-radius: 10px; /* Opcional: para bordes redondeados */
+}
+
+/* Puedes ajustar el color de texto si es necesario */
+.social-media h2,
+.social-media p{
+    color: #ffffff; /* Cambia el color del texto si es necesario */
+}
+
+/* Estilo de los enlaces dentro de la sección de redes sociales */
+.social-media a {
+    color: #ffffff; /* Cambia el color del texto a blanco */
+    text-decoration: none; /* Elimina el subrayado por defecto */
+    display: block; /* Opcional: para que los enlaces ocupen todo el ancho disponible */
+    margin-bottom: 10px; /* Espacio entre los enlaces, ajusta según tu preferencia */
+}
+
+/* Estilo de los enlaces al pasar el ratón (hover) */
+.social-media a:hover {
+    color: #dddddd; /* Cambia el color del texto al pasar el ratón, puedes ajustar el color según tu preferencia */
+}
+
